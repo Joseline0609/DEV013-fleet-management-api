@@ -10,6 +10,6 @@ class Taxi(db.Model):
 
     def to_dict(self):
         """..."""
-        return {"id": self.id, 
+        return {"id": self.id,
                 "plate": self.plate
                 }

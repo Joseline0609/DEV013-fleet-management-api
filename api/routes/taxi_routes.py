@@ -26,10 +26,3 @@ def get_taxis():
         'total_pages': paginated_taxis.pages,
         'current_page': page
     })
-
-
-    #--------------------------------------------------
-
-    #taxis = Taxi.query.all()
-    #taxis_json = [taxi.to_dict() for taxi in taxis]
-    #return jsonify(taxis_json)
